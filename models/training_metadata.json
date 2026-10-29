@@ -1,0 +1,27 @@
+{
+  "trained_at_utc": "2026-10-25T02:25:09+00:00",
+  "random_state": 42,
+  "test_size": 0.2,
+  "n_train": 5634,
+  "n_test": 1409,
+  "churn_rate_train": 0.2654,
+  "sklearn_version": "1.8.0",
+  "models": {
+    "logistic_regression": {
+      "best_params": {
+        "model__C": 10
+      },
+      "cv_roc_auc": 0.8462,
+      "seconds": 1.8
+    },
+    "random_forest": {
+      "best_params": {
+        "model__max_depth": 10,
+        "model__min_samples_leaf": 5,
+        "model__n_estimators": 200
+      },
+      "cv_roc_auc": 0.8473,
+      "seconds": 79.7
+    }
+  }
+}

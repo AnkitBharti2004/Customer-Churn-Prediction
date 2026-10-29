@@ -1,0 +1,4 @@
+{
+  "final_model": "logistic_regression",
+  "selection_rule": "highest F2 on the held-out test set (ROC-AUC breaks ties)"
+}
